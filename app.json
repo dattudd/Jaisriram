@@ -34,7 +34,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "𝙅𝙚𝙨𝙨𝙮 ✘ 𝙈𝙪𝙨𝙞𝙘",
+        "value": "🌺 𝗝𝗲𝘀𝘀𝘆 ✘ 𝗠𝘂𝘀𝗶𝗰 🌺",
         "required": true
       },
       "OWNER_ID": {
