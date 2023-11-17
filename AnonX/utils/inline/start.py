@@ -36,7 +36,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(text="♡ Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ♡", callback_data="settings_back_helper"),
         ],
         
-            InlineKeyboardButton(text="☠Sᴏᴜʀᴄᴇ☠", url="https://telegra.ph/file/b1f8ff56996c3d952fa48.mp4"
+            InlineKeyboardButton(text="☠Sᴏᴜʀᴄᴇ☠", url="https://telegra.ph/file/b1f8ff56996c3d952fa48.mp4")
             InlineKeyboardButton(text="ღ Oᴡɴᴇʀ ღ", user_id=OWNER),
         ],
     ]
