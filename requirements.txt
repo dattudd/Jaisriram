@@ -21,7 +21,6 @@ spotipy
 tgcrypto
 numpy
 wget
-yt-dlp
-youtube_dl
 youtube-search
 youtube-search-python
+git+https://github.com/yt-dlp/yt-dlp
