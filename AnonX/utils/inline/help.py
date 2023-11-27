@@ -19,7 +19,7 @@ def help_pannel(_, START: Union[bool, int] = None):
             url=f"t.me/Noobc0der",
         ),
         InlineKeyboardButton(
-            text="Close", callback_data=f"close"
+            text="𝖢𝗅𝗈𝗌𝖾", callback_data=f"close"
         ),
     ]
     mark = second if START else first
@@ -35,17 +35,17 @@ def help_pannel(_, START: Union[bool, int] = None):
                     callback_data="help_callback hb2",
                 ),
                 InlineKeyboardButton(
-                    text="Blacklist",
+                    text="𝖡𝖫-𝖴𝗌𝖾𝗋𝗌",
                     callback_data="help_callback hb3",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="Broadcast",
+                    text="𝖡𝗋𝗈𝖺𝖽𝖼𝖺𝗌𝗍",
                     callback_data="help_callback hb4",
                 ),
                 InlineKeyboardButton(
-                    text="Gban",
+                    text="𝖦-𝖡𝖺𝗇",
                     callback_data="help_callback hb12",
                 ),
                 InlineKeyboardButton(
@@ -55,11 +55,11 @@ def help_pannel(_, START: Union[bool, int] = None):
             ],
             [
                 InlineKeyboardButton(
-                    text="Ping",
+                    text="𝖯𝗂𝗇𝗀",
                     callback_data="help_callback hb7",
                 ),
                 InlineKeyboardButton(
-                    text="Play",
+                    text="𝖯𝗅𝖺𝗒",
                     callback_data="help_callback hb8",
                 ),
                 InlineKeyboardButton(
