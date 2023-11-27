@@ -2,7 +2,7 @@ from typing import Dict, List, Union
 
 from pyrogram import Client, filters
 
-from AnonX import app, db
+from AnonX import app
 from AnonX.Database import _get_theme, get_theme, save_theme
 from AnonX.Decorators.permission import PermissionCheck
 
