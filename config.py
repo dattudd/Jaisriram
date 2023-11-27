@@ -21,7 +21,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Noobxcoders/IG_Music")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Noobxcoders/JessyXMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -32,7 +32,6 @@ SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "5000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
-
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")
