@@ -1,4 +1,4 @@
-from DAXXMUSIC.utils.mongo import db
+from AnonX.utils.mongo import db
 
 coupledb = db.couple
 
