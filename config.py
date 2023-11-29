@@ -11,6 +11,8 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
+#get Your Assistant User name
+ASSUSERNAME = getenv("ASSUSERNAME" , "JessyAssisant")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
