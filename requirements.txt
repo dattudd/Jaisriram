@@ -20,8 +20,7 @@ speedtest-cli
 spotipy
 tgcrypto
 numpy
-git+https://github.com/yt-dlp/yt-dlp.git
+yt-dlp
 youtube-search
 youtube-search-python
 telegraph
-python-telegram-bot
