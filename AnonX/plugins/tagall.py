@@ -1,5 +1,5 @@
 import asyncio
-from DAXXMUSIC import app
+from AnonX import app
 from pyrogram import filters
 
 
