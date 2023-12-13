@@ -26,4 +26,3 @@ youtube-search
 youtube-search-python
 telegraph
 httpx
-ytdlp
