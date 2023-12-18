@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from JessyXMusic import app
-from JessyXMusic.core.userbot import assistants
-from JessyXMusic.misc import SUDOERS, mongodb
-from JessyXMusic.plugins import ALL_MODULES
-from JessyXMusic.utils.database import get_served_chats, get_served_users, get_sudoers
-from JessyXMusic.utils.decorators.language import language, languageCB
-from JessyXMusic.utils.inline.stats import back_stats_buttons, stats_buttons
+from AnonX import app
+from AnonX.core.userbot import assistants
+from AnonX.misc import SUDOERS, mongodb
+from AnonX.plugins import ALL_MODULES
+from AnonX.utils.database import get_served_chats, get_served_users, get_sudoers
+from AnonX.utils.decorators.language import language, languageCB
+from AnonX.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
