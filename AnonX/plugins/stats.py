@@ -54,7 +54,7 @@ async def overall_stats(client, CallbackQuery, _):
     served_users = len(await get_served_users())
     text = _["gstats_3"].format(
         config.MUSIC_BOT_NAME,
-        len(Assistants),
+        len(assistants),
         len(BANNED_USERS),
         served_chats,
         served_users,
