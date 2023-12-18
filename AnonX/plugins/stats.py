@@ -98,7 +98,7 @@ async def bot_stats(client, CallbackQuery, _):
     total = hdd.total / (1024.0**3)
     used = hdd.used / (1024.0**3)
     free = hdd.free / (1024.0**3)
-    call = await mongodb.command("dbstats")
+    call = await mongodb.command("serverStatus")
     datasize = call["dataSize"] / 1024
     storage = call["storageSize"] / 1024
     served_chats = len(await get_served_chats())
