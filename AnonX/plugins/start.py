@@ -180,7 +180,7 @@ async def start_comm(client, message: Message, _):
             await m.delete()
             await app.send_video(
                 message.chat.id,
-                photo=thumbnail,
+                video=thumbnail,
                 caption=searched_text,
                 parse_mode="markdown",
                 reply_markup=key,
@@ -205,7 +205,7 @@ async def start_comm(client, message: Message, _):
         try:
             await message.reply_sticker("CAACAgQAAxkBAAEK025lZDVB-J19eJGYoWJM93ffMCHVfgACdQ8AAmeTIVPF330VUzuL4zME")
             await message.reply_video(
-                photo=image,
+                video=media,
                 caption=_["start_2"].format(
                     message.from_user.first_name, config.MUSIC_BOT_NAME, served_users, served_chats
                 ),
