@@ -8,7 +8,6 @@ def help_pannel(_, START: Union[bool, int] = None):
             text=_["CLOSEMENU_BUTTON"], callback_data=f"𝖢𝗅𝗈𝗌𝖾"
         ),
     ]
-    mark = second if START else first
     upl = InlineKeyboardMarkup(
         [
             [
