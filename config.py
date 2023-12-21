@@ -134,6 +134,6 @@ if PING_IMG_URL:
             PING_IMG_URL = "https://telegra.ph/file/7616c69e43945cede9dff.jpg"
 
 if START_VID_URL:
-    if START_VID_URL != "assets/Ping.mp4":
+    if START_VID_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_VID_URL):
             START_VID_URL = "https://te.legra.ph/file/a729a7169c1593ec56bed.mp4"
