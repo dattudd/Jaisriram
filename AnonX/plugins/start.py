@@ -43,8 +43,8 @@ async def start_comm(client, message: Message, _):
         if name[0:4] == "help":
             keyboard = help_pannel(_)
             await message.reply_sticker("CAACAgQAAxkBAAEK025lZDVB-J19eJGYoWJM93ffMCHVfgACdQ8AAmeTIVPF330VUzuL4zME")
-            return await message.reply_photo(
-                       photo=config.START_IMG_URL,
+            return await message.reply_video(
+                       photo=config.START_VID_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
             )
         if name[0:4] == "song":
@@ -102,7 +102,7 @@ async def start_comm(client, message: Message, _):
                 return
             thumbnail = await YouTube.thumbnail(videoid, True)
             await m.delete()
-            await message.reply_photo(photo=thumbnail, caption=msg)
+            await message.reply_video(photo=thumbnail, caption=msg)
             return
         if name[0:3] == "sud":
             await sudoers_list(client=client, message=message, _=_)
@@ -178,7 +178,7 @@ async def start_comm(client, message: Message, _):
                 ]
             )
             await m.delete()
-            await app.send_photo(
+            await app.send_video(
                 message.chat.id,
                 photo=thumbnail,
                 caption=searched_text,
@@ -204,7 +204,7 @@ async def start_comm(client, message: Message, _):
         served_users = len(await get_served_users())
         try:
             await message.reply_sticker("CAACAgQAAxkBAAEK025lZDVB-J19eJGYoWJM93ffMCHVfgACdQ8AAmeTIVPF330VUzuL4zME")
-            await message.reply_photo(
+            await message.reply_video(
                 photo=image,
                 caption=_["start_2"].format(
                     message.from_user.first_name, config.MUSIC_BOT_NAME, served_users, served_chats
@@ -235,8 +235,8 @@ async def start_comm(client, message: Message, _):
 async def testbot(client, message: Message, _):
     OWNER = OWNER_ID[0]
     out = start_pannel(_, app.username)
-    return await message.reply_photo(
-               photo=config.START_IMG_URL,
+    return await message.reply_video(
+               photo=config.START_VID_URL,
                caption=_["start_1"].format(
             message.chat.title, config.MUSIC_BOT_NAME
         ),
@@ -277,7 +277,7 @@ async def welcome(client, message: Message):
                 userbot = await get_assistant(message.chat.id)
                 OWNER = OWNER_ID[0]
                 out = start_pannel(_, app.username, OWNER)
-                await message.reply_photo(
+                await message.reply_video(
                     photo=config.START_IMG_URL,
                     caption=_["start_3"].format(
                         config.MUSIC_BOT_NAME,
