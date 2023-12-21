@@ -3,18 +3,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
 def help_pannel(_, START: Union[bool, int] = None):
-    first = [
-        InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"], callback_data=f"𝖢𝗅𝗈𝗌𝖾"
-        )
-    ]
+    first = [InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data=f"𝖢𝗅𝗈𝗌𝖾")]
     second = [
         InlineKeyboardButton(
             text=_["BACK_BUTTON"],
             callback_data=f"settingsback_helper",
-        ),
-        InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"], callback_data=f"𝖢𝗅𝗈𝗌𝖾"
         ),
     ]
     mark = second if START else first
