@@ -92,12 +92,11 @@ def help_back_markup(_):
         [
             [
                 InlineKeyboardButton(
-                    # text=_["BACK_BUTTON"],
-                    text="𝖡𝖺𝖼𝗄",
+                    text=_["BACK_BUTTON"],
                     callback_data=f"settings_back_helper",
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"], callback_data=f"𝖢𝗅𝗈𝗌𝖾"
+                    text=_["CLOSE_BUTTON"], callback_data=f"close"
                 )
             ]
         ]
@@ -109,7 +108,7 @@ def private_help_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝖡𝖺𝖼𝗄",
+                text=" Help ",
                 callback_data="settings_back_helper",
             ),
         ],
