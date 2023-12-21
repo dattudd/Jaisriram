@@ -199,7 +199,7 @@ async def start_comm(client, message: Message, _):
         except:
             OWNER = None
         out = private_panel(_, app.username, OWNER)
-        image = config.START_IMG_URL
+        image = config.START_VID_URL
         served_chats = len(await get_served_chats())
         served_users = len(await get_served_users())
         try:
